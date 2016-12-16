@@ -1,0 +1,25 @@
+MATHEMATICAL FUNCTIONS
+Header file: <cmath>
+
+sin(x)	  Sine of an angle x (measured in radians)
+cos(x)	  Cosine of an angle x (measured in radians)
+tan(x)	  Tangent of an angle x (measured in radians)
+asin(x) 	Sin-1 (x) where x (measured in radians)
+acos(x)	  Cos-1 (x) where x (measured in radians)
+exp(x)	  Exponential function of x (ex)
+log(x)	  logarithm of x
+log 10(x)	Logarithm of number x to the base 10
+sqrt(x)	  Square root of x
+pow(x, y)	x raised to the power y
+abs(x)	  Absolute value of integer number x
+
+CHARACTER FUNCTIONS
+Header File: <cctype>
+
+isalpha(c)	It returns True if C is an uppercase letter and False if c is lowercase.
+isdigit(c)	It returns True if c is a digit (0 through 9) otherwise False.
+isalnum(c)	It returns True if c is a digit from 0 through 9 or an alphabetic character (either uppercase or lowercase) otherwise False.
+islower(c)	It returns True if C is a lowercase letter otherwise False.
+isupper(c)	It returns True if C is an uppercase letter otherwise False.
+toupper(c)	It converts c to uppercase letter.
+tolower(c)	It converts c to lowercase letter
