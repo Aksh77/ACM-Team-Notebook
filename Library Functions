@@ -1,3 +1,49 @@
+STRING FUNCTIONS
+Header File:<string>
+
+s.length()              returns length of s
+s.size()                returns length of s
+s.empty()               return true if string is empty
+s.clear()               changes s to empty string
+s.insert(n,"x")         insert "x" after position n i.e. at index n of string s
+s.front()               access first char of s
+s.back()                access last char of s
+s.pop_back()            delete last char of s
+s.erase(i,n)            erase n characters starting from index i of s
+s.replace(i,n,s2)       replace n characters starting from index i of s with string s2
+s.substr(i,n)           returns substring of n characters starting from index i of s
+
+***************Searching in String*********************
+
+s.find("x")                returns index of x in s   
+                           *******implementation*******
+                            size_t found =s.find("x");
+                            if(found==string::npos)
+                                cout<<"Not found\n";
+                            else
+                                cout<<found<<endl;
+                           ****************************
+s.find_first_of("x")       returns first occurence of x in s
+s.find_last_of("x")        returns last occurence of x in s
+s.find_first_not_of("x")   returns first absence of x in s
+s.find_last_not_of("x")    returns last absencee of x in s
+s.compare(i,n,s2)          compare n characters starting from index i of s with string s2; returns 0 if matched
+ 
+*******************************************************************************************************************************
+
+CHARACTER FUNCTIONS
+Header File: <cctype>
+
+isalpha(c)	It returns True if C is an uppercase letter and False if c is lowercase.
+isdigit(c)	It returns True if c is a digit (0 through 9) otherwise False.
+isalnum(c)	It returns True if c is a digit from 0 through 9 or an alphabetic character (uppercase or lowercase) 
+islower(c)	It returns True if C is a lowercase letter otherwise False.
+isupper(c)	It returns True if C is an uppercase letter otherwise False.
+toupper(c)	It converts c to uppercase letter.
+tolower(c)	It converts c to lowercase letter
+
+*******************************************************************************************************************************
+
 MATHEMATICAL FUNCTIONS
 Header file: <cmath>
 
@@ -13,13 +59,7 @@ sqrt(x)	  Square root of x
 pow(x, y)	x raised to the power y
 abs(x)	  Absolute value of integer number x
 
-CHARACTER FUNCTIONS
-Header File: <cctype>
+*******************************************************************************************************************************
 
-isalpha(c)	It returns True if C is an uppercase letter and False if c is lowercase.
-isdigit(c)	It returns True if c is a digit (0 through 9) otherwise False.
-isalnum(c)	It returns True if c is a digit from 0 through 9 or an alphabetic character (either uppercase or lowercase) otherwise False.
-islower(c)	It returns True if C is a lowercase letter otherwise False.
-isupper(c)	It returns True if C is an uppercase letter otherwise False.
-toupper(c)	It converts c to uppercase letter.
-tolower(c)	It converts c to lowercase letter
+
+
