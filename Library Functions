@@ -28,6 +28,10 @@ s.find_last_of("x")        returns last occurence of x in s
 s.find_first_not_of("x")   returns first absence of x in s
 s.find_last_not_of("x")    returns last absencee of x in s
 s.compare(i,n,s2)          compare n characters starting from index i of s with string s2; returns 0 if matched
+
+***************Sorting in String*********************
+ 
+ sort(s.begin(), s.end(), std::greater<char>())
  
 *******************************************************************************************************************************
 
@@ -61,5 +65,9 @@ abs(x)	  Absolute value of integer number x
 
 *******************************************************************************************************************************
 
+PERMUTATIONS
+Header File: <algorithm>
 
-
+next_permutation(s.begin(),s.end())                   The next lexicographic permutation
+prev_permutation(s.begin(),s.end())                   The previous lexicographic permutation
+is_permutation(s1.begin(),s1.end(),s2.begin())        Returns true if s2 is a permutation of s1
