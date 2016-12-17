@@ -1,0 +1,19 @@
+MAPS
+
+#include <iostream>
+#include <map>
+using namespace std;
+int main(void) 
+{
+ multimap<char, int> m;     //initialize map of size 0
+ return 0;
+}
+
+m.size()                return size of map
+m.empty()               returns true if map is empty
+m.begin() , m.end()     iterators
+//to be continued
+
+//add stack, queue, deque, list, vector functions
+
+***********************************************************************************************************************************
