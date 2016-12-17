@@ -12,6 +12,13 @@ s.pop_back()            delete last char of s
 s.erase(i,n)            erase n characters starting from index i of s
 s.replace(i,n,s2)       replace n characters starting from index i of s with string s2
 s.substr(i,n)           returns substring of n characters starting from index i of s
+************* counting instances**********************
+#include <algorithm>
+using namespace std;
+
+string s = "a_b_c";
+size_t n = count(s.begin(), s.end(), '_');
+//OUTPUT : 3
 
 ***************Searching in String*********************
 
