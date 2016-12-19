@@ -1,19 +1,36 @@
 MAPS
+header: <map>
 
-#include <iostream>
-#include <map>
-using namespace std;
-int main(void) 
-{
- multimap<char, int> m;     //initialize map of size 0
- return 0;
-}
+map<char, int> m;                          initialize map of size 0
+m.clear()                                  removes all elements of map
+m.size()                                   return size of map
+m.empty()                                  returns true if map is empty
+m.begin() , m.end()                        iterators
+                                           **********************Iteration**************************
+                                           map<char,int>::iterator i;  //initialize iterator
+                                           for (i=m.begin(); i!=m.end(); ++i)
+                                              cout << i->first << " => " << i->second << '\n';
 
-m.size()                return size of map
-m.empty()               returns true if map is empty
-m.begin() , m.end()     iterators
-//to be continued
+                                            //prints key value pairs in the format "key=>value"
+                                           *********************************************************
+m['k']                                     returns value corresponding to key 'k' if the key exists, else returns reference 
+                                           to new element
+m.find('k')                                returns value corresponding to key 'k'
+m.count('k')                               return 1 if key 'k' exixts in the map, else returns 0
+m.insert(pair<char,int>('k',v));           insert an element with key 'k' and value 'v'
+m['k']=v                                           
+m.erase('k')                               erases element with key 'k'
+                                           **********************************************************
+                                           it=mymap.find('b');
+                                           mymap.erase (it);                   // erasing by iterator
 
-//add stack, queue, deque, list, vector functions
+                                           mymap.erase ('c');                  // erasing by key
+
+                                           it=mymap.find ('e');
+                                           mymap.erase ( it, mymap.end() );    // erasing by range
+                                           ***********************************************************
 
 ***********************************************************************************************************************************
+
+
+//add stack, queue, deque, list, vector functions
