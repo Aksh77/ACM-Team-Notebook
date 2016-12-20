@@ -1,0 +1,24 @@
+//To find number of ways to cover a distance in 1, 2 or 3 steps
+int printCountDP(int dist)
+{
+    int count[dist+1];
+    count[0]  = 1,  count[1] = 1,  count[2] = 2;
+    for (int i=3; i<=dist; i++)
+       count[i] = count[i-1] + count[i-2] + count[i-3];
+    return count[dist];
+}
+          
+//Fibonacci
+int fib(int n)
+{
+   if (lookup[n] == NIL)
+   {
+      if (n <= 1)
+         lookup[n] = n;
+      else
+         lookup[n] = fib(n-1) + fib(n-2);
+   } 
+   return lookup[n];
+}
+
+
