@@ -40,8 +40,7 @@ s.compare(i,n,s2)          compare n characters starting from index i of s with 
  
  sort(s.begin(), s.end(), std::greater<char>())
  
-*******************************************************************************************************************************
-
+*************************************************************************************
 CHARACTER FUNCTIONS
 Header File: <cctype>
 
@@ -53,7 +52,7 @@ isupper(c)	It returns True if C is an uppercase letter otherwise False.
 toupper(c)	It converts c to uppercase letter.
 tolower(c)	It converts c to lowercase letter
 
-*******************************************************************************************************************************
+*************************************************************************************
 
 MATHEMATICAL FUNCTIONS
 Header file: <cmath>
@@ -70,8 +69,7 @@ sqrt(x)	  Square root of x
 pow(x, y)	x raised to the power y
 abs(x)	  Absolute value of integer number x
 
-*******************************************************************************************************************************
-
+*************************************************************************************
 PERMUTATIONS
 Header File: <algorithm>
 
