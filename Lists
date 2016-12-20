@@ -1,0 +1,45 @@
+*************INITIALISATION******************
+list<int> myList{1,2,3};
+   /* creates list with 1,2,3 in it */
+
+   list<int> myNewList = 1;
+   /* create list myNewList of integer 
+     and copies value of 1 into it*/
+     
+**************** INSERTION*******************
+  list<int> l = {1,2,3,4,5};
+  list<int>::iterator it = l.begin();           
+
+  l.insert (it+1, 100);  // insert 100 before 2 position
+  /* now the list is 1 100 2 3 4 5 */
+  
+  list<int> new_l = {10,20,30,40}; // new list 
+
+  new_l.insert (new_l.begin() , l.begin(), l.end());
+  /* insert elements from beginning of list l to end of list l 
+    before 1 position in list new_l */
+  
+  /* now the list new_l is 1 100 2 3 4 5 10 20 30 40 */
+
+  l.insert(l.begin() , 5 , 10);  // insert 10 before beginning 5 times 
+  /* now l is 10 10 10 10 10 1 100 2 3 4 5 */ 
+  
+  ******************PUSH/POP********************
+  list<int> l{1,2,3,4,5};
+   
+   l.pop_back()();
+   /* now the list becomes 1,2,3,4 */
+   
+   l.pop_front()();
+   /* now the list becomes 2,3,4 */
+   
+   
+   l.empty()          returns true if list is empty
+   l.size()           returns size
+   l.front()          returns first element from front
+   l.back()           returns first element from back
+   l.reverse()        reverse a list
+   l.sort()           sorting a list
+   list1.merge(list2) merging
+  
+  
