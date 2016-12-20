@@ -119,4 +119,47 @@ list<int> myList{1,2,3};
   *************************************************************************************************
   
   DEQUE
+  deque< object_type > deque_name;
   
+  ****************INSERTION***********************
+  int a[] = { 1,5,8,9,3 };
+  deque<int> dq(a, a+5);
+  /* creates s deque with elements 1,5,8,9,3  */
+
+
+  dq.push_back(10);
+  /* now dq is : 1,5,8,9,3,10 */
+ 
+  dq.push_front(20);
+  /* now dq is : 20,1,5,8,9,3,10  */
+
+  deque<int>::iterator i;
+
+  i=dq.begin()+2;
+  /* i points to 3rd element in dq */
+
+  dq.insert(i,15);
+  /* now dq 20,1,15,5,8,9,3,10  */
+
+  int a[]={7,7,7,7};
+
+  d1.insert(dq.begin() , a , a+4 );
+  /* now dq is 7,7,7,7,20,1,15,5,8,9,3,10  */
+  
+  **********************DELETION*****************************
+  int a[] = { 1,5,8,9,3,5,6,4 };
+  deque<int> dq(a,a+8);
+  /* creates s deque with elements 1,5,8,9,3,5,6,4  */
+
+
+   dq.pop_back();
+   /* removes an element from the back */
+   /* now the deque dq is : 1,5,8,9,3,5,6 */
+ 
+   dq.pop_front();
+   /* now dq is : 1,5,8,9,3,5,6  */
+   
+   dq.empty()
+   dq.size()
+   
+   ***********************************************************************************
