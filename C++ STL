@@ -163,3 +163,38 @@ list<int> myList{1,2,3};
    dq.size()
    
    ***********************************************************************************
+   
+   VECTORS
+   vector< object_type > vector_name;
+   
+   ************INITIALISATION*****************
+   std::vector<int> my_vector;    
+   std::vector<string> v {"Pankaj" , "The" , "Java" ,"Coder"};
+   std::vector<string> v(v1.begin(), v1.end());                   //Copy from v1 to v
+   std::vector<string> v(4 , "test");                             //initialises 4 elements as test
+   
+   ******************INSERT*********************
+   vector<int>iterator i = v.begin()
+   v.insert(i,70)                         //inserts 70 at front
+   v.insert(i,2,70)                       //inserts 70 2 times
+   v.insert(i,v2.begin(),v2.end())        //inserts vector v2
+   
+   ******************ERASE**********************
+   vecto<int>v1 {10,20,30,40};
+   vector<int>iterator:: it = v.begin();
+  
+   v.erase(it);   //removes first element from the vector
+
+   v.erase(v1.begin(), v1.end() - 2 )  
+   /*removes all the elements except last two */
+
+   for(it = v.begin(); it != v.end(); it++) {
+      cout << *it <<" ";   // for printing the vector
+   /* Output : 30 40 */
+   
+   v.push_back(x)             //insert x at end
+   v.pop_back()               //removes last elemet
+   v.front()                  //returns first element
+   v.back()                   //returns last element
+   v.clear()                  //clears vector
+      
