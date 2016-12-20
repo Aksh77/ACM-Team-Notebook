@@ -31,6 +31,43 @@ m.erase('k')                               erases element with key 'k'
                                            ***********************************************************
 
 ***********************************************************************************************************************************
+STACK
+header: <stack>
+stack<int> s;   initialize stack
+s.push()			  push an element
+s.pop()			    pop element(does not return)
+s.top()			    returns topmost element of the stack
+s.size()			  returns number of elements
+s.empty()		    returns true if stack is empty
 
+*****************************************************************************************
 
-//add stack, queue, deque, list, vector functions
+QUEUE
+header: <queue>
+queue<int> q;   initialize queue
+q.push()			  pushes element to back/rear
+q.pop()			    removes the first element inserted
+q.front()			  returns the front element of the queue
+q.back()			  returns the rear element of the queue
+q.size()			  returns number of elements
+q.empty()       returns true if queue is empty
+
+*****************************************************************************************
+
+PRIORITY QUEUE
+Priority queue is just like a normal queue except the element removed from the queue is always the greatest among all the elements in the queue
+
+priority_queue<int> pq
+pq.push()		  pushes an element
+              *************************************
+              pq1.push(30);  // inserts 30 to pq1 , now top = 30
+              pq1.push(40);  // inserts 40 to pq1 , now top = 40 ( maxinmum element)
+              pq1.push(90);  // inserts 90 to pq1 , now top = 90  
+              pq1.push(60);	// inserts 60 to pq1 , top still is 90	
+              **************************************
+pq.pop()			removes the topmost(greatest) element 
+pq.top()			returns the topmost(greatest) element
+pq.size()     returns number of elements
+pq.empty()    returns true is priority queue is empty
+
+//add deque, list, vector functions
