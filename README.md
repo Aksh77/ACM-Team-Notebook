@@ -31,10 +31,11 @@ The ICPC, entitled the ACM International Collegiate Programming Contest, is an a
 | 10 | Longest Increasing Subsequence | DP implementation of algorithm to find the longest increasing subsequence of an Array |
 | 11 | Longest common subsequence | DP implementation of algorithm to find the longest common subsequence of 2 strings |
 | 12 | Maximum Sub-Array | Program to find the subarray with the largest sum |
-| 13 | Modulo Arithmetic Algorithms | Modular Arithmetic programs- Euclid's Algorithm to find GCD, and Modular Exponentiation |
-| 14 | Prefix Sum Array | Program to print the prefix-sum (cumulative sum) of an array |
-| 15 | Prime factors | Program to find all prime factors of a number |
-| 16 | Segmented Sieve of Eratosthenes | Program to find prime numbers upto n using Segmented Sieve of Eratosthenes |
+| 13 | Miller Rabin primality Test | Probabilistic algorithm to check primality of large numbers |
+| 14 | Modulo Arithmetic Algorithms | Modular Arithmetic programs- Euclid's Algorithm to find GCD, and Modular Exponentiation |
+| 15 | Prefix Sum Array | Program to print the prefix-sum (cumulative sum) of an array |
+| 16 | Prime factors | Program to find all prime factors of a number |
+| 17 | Segmented Sieve of Eratosthenes | Program to find prime numbers upto n using Segmented Sieve of Eratosthenes |
 
 
 
