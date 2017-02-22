@@ -42,6 +42,6 @@ The ICPC, entitled the ACM International Collegiate Programming Contest, is an a
 
 
 ### Team members
-* [@Aksh77](https://github.com/Aksh77)
-* [@Poirot1729](https://github.com/Poirot1729)
-* [@sachin320](https://github.com/sachin320)
+* [Akshatha Nayak](https://github.com/Aksh77)
+* [Ebey Abraham](https://github.com/Poirot1729)
+* [Sachin Biju Jacob](https://github.com/sachin320)
