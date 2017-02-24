@@ -25,19 +25,20 @@ The ICPC, entitled the ACM International Collegiate Programming Contest, is an a
 | 4 | Depth First search | Program to print DFS traversal from a given vertex |
 | 5 | Dijkstra's Algo | Program for Dijkstra's single source shortest path algorithm |
 | 6 | Floyd Warshall Algorithm | Program to find shortest distances between every pair of vertices in a given edge-weighted directed Graph|
-| 7 | KMP Algorithm | Program to find all occurrences of a given pattern in a string |
-| 8 | Knapsack Problem | Program to solve Knapsack Problems (get the maximum total value in the knapsack) |
-| 9 | Library Functions | Reference sheet for library functions- Mathematical Functions, String and Character functions |
-| 10 | Longest Increasing Subsequence | DP implementation of algorithm to find the longest increasing subsequence of an Array |
-| 11 | Longest common subsequence | DP implementation of algorithm to find the longest common subsequence of 2 strings |
-| 12 | Maximum Sub-Array | Program to find the subarray with the largest sum |
-| 13 | Miller Rabin primality Test | Probabilistic algorithm to check primality of large numbers |
-| 14 | Modulo Arithmetic Algorithms | Modular Arithmetic programs- Euclid's Algorithm to find GCD, and Modular Exponentiation |
-| 15 | Prefix Sum Array | Program to print the prefix-sum (cumulative sum) of an array |
-| 16 | Prime factors | Program to find all prime factors of a number |
-| 17 | Rabin-Karp Algorithm | Program to find all occurrences of a given pattern in a string |
-| 18 | Ray Casting Algorithm | Check whether a point is within a given polygon |
-| 19 | Segmented Sieve of Eratosthenes | Program to find prime numbers upto n using Segmented Sieve of Eratosthenes |
+| 7 | Geometry Algorithms | Code snippets for Geometry based questions |
+| 8 | KMP Algorithm | Program to find all occurrences of a given pattern in a string |
+| 9 | Knapsack Problem | Program to solve Knapsack Problems (get the maximum total value in the knapsack) |
+| 10 | Library Functions | Reference sheet for library functions- Mathematical Functions, String and Character functions |
+| 11 | Longest Increasing Subsequence | DP implementation of algorithm to find the longest increasing subsequence of an Array |
+| 12 | Longest common subsequence | DP implementation of algorithm to find the longest common subsequence of 2 strings |
+| 13 | Maximum Sub-Array | Program to find the subarray with the largest sum |
+| 14 | Miller Rabin primality Test | Probabilistic algorithm to check primality of large numbers |
+| 15 | Modulo Arithmetic Algorithms | Modular Arithmetic programs- Euclid's Algorithm to find GCD, and Modular Exponentiation |
+| 16 | Prefix Sum Array | Program to print the prefix-sum (cumulative sum) of an array |
+| 17 | Prime factors | Program to find all prime factors of a number |
+| 18 | Rabin-Karp Algorithm | Program to find all occurrences of a given pattern in a string |
+| 19 | Ray Casting Algorithm | Check whether a point is within a given polygon |
+| 20 | Segmented Sieve of Eratosthenes | Program to find prime numbers upto n using Segmented Sieve of Eratosthenes |
 
 
 
