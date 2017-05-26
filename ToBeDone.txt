@@ -1,0 +1,3 @@
+To be done:
+- Maximum of all subarrays of size k (sliding window maximum)
+	http://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
