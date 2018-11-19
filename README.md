@@ -20,11 +20,11 @@ The ICPC, entitled the ACM International Collegiate Programming Contest, is an a
 | S.No | Program name | Description |
 |--------|--------|--------|
 | 1 | Basic DP Algorithm Implementations | DP implementations of Subset Sum problem, Fibonacci, Number of ways to cover a distance |
-| 2 | Breadth First Search | Program to print BFS traversal from a given source vertex |
+| 2 | Breadth First Search | Program to print BFS traversal from a given source vertex [check](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/) |
 | 3 | C++ STL | Reference Sheet for C++ STL- Map, Stack, Queue, Priority Queue, List, Deque, Vector |
-| 4 | Depth First search | Program to print DFS traversal from a given vertex |
-| 5 | Dijkstra's Algo | Program for Dijkstra's single source shortest path algorithm |
-| 6 | Floyd Warshall Algorithm | Program to find shortest distances between every pair of vertices in a given edge-weighted directed Graph|
+| 4 | Depth First search | Program to print DFS traversal from a given vertex [check](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/) |
+| 5 | Dijkstra's Algo | Program for Dijkstra's single source shortest path algorithm [check](https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/) |
+| 6 | Floyd Warshall Algorithm | Program to find shortest distances between every pair of vertices in a given edge-weighted directed Graph [check](https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/) |
 | 7 | Geometry Algorithms | Code snippets for Geometry based questions |
 | 8 | KMP Algorithm | Program to find all occurrences of a given pattern in a string |
 | 9 | Knapsack Problem | Program to solve Knapsack Problems (get the maximum total value in the knapsack) |
